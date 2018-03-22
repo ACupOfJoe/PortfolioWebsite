@@ -1,13 +1,17 @@
 h1.name { 
+  float: right;
+  order: 1;
   font-size: 100px;
  }
 
 h3.catchphrase {
+  float: right;
+  order: 2;
   font-size: 75px; 
  }
 
 .logo { 
-  width: 10%;
+  width: ;
   height: 10%;
  }
 
@@ -22,4 +26,10 @@ h3.catchphrase {
  width: 400px;
 }
 
+
+.containertop {
+  float: right;
+  width: 80%;
+  border-bottom: 5px solid red;
+ }
 
