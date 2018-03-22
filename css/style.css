@@ -1,39 +1,14 @@
 h1.name { 
-  font-size: 1000;
+  font-size: 100px;
  }
 
 h3.catchphrase {
-  font-size: 100; 
+  font-size: 75px; 
  }
 
 .logo { 
   width: 10%;
   height: 10%;
- }
-
-.waterandboats { 
-  width: 15%;
-  height: 10%;
-  }
-
-.boatsinwater { 
-  width: 15%;
-  height: 10%;
-}
-
-.road { 
- width: 15%;
- height: 10%;
-}
-
-.mountains { 
-width: 15%;
-height: 10%; 
-}
-
-.palmtrees { 
-width: 15%;
-height: 10%;
  }
 
 .crop {
