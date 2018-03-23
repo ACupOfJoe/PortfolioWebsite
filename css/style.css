@@ -58,3 +58,16 @@ h3.catchphrase {
   border-bottom: 5px solid red;
  }
 
+.containerMiddle {
+  clear: both;
+  width: 100%;
+ }
+
+ .clearLeft { 
+  clear: left;
+  }
+
+  .floatLeft { 
+    float: left;
+   }
+
