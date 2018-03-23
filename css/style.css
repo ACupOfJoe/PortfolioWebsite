@@ -1,20 +1,22 @@
 h1.name { 
   float: right;
   order: 1;
-  font-size: 100px;
-  display: inline-block;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
  }
 
 h3.catchphrase {
   float: right;
+  text-align: right;
   order: 2;
-  font-size: 75px;
-  display: inline-block; 
- }
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
 
 .logo { 
   float: left; 
-  display: inline-block; 
  }
 
 .crop {
@@ -30,13 +32,13 @@ h3.catchphrase {
 
 .crop2 {
  height: 100px;
- width: 200px;
+ width: 125px;
  overflow: hidden;
 }
 
 .crop2 img {
  height: auto;
- width: 200px
+ width: 400px
 }
 
 .containertop {
