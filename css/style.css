@@ -20,8 +20,8 @@ h3.catchphrase {
  }
 
 .crop {
- height: 500px;
- width: 700px;
+ height: 200px;
+ width: 300px;
  overflow: hidden;
 }
 
