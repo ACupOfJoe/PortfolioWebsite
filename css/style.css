@@ -63,11 +63,21 @@ h3.catchphrase {
   width: 100%;
  }
 
- .clearLeft { 
-  clear: left;
+ .containerMiddleLeft { 
+  float: left;
   }
 
-  .floatLeft { 
-    float: left;
-   }
+ .clearLeft { 
+  clear: left;
+}
 
+.floatLeft { 
+  float: left;
+}
+
+.textAlignCenter {
+  text-align: center;
+}
+.verticalAlignTop { 
+  vertical-align: top;
+ }
