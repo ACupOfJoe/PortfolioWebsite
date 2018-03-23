@@ -19,27 +19,37 @@ h3.catchphrase {
   float: left; 
  }
 
-.crop {
+.cropIcon {
  height: 200px;
  width: 300px;
  overflow: hidden;
 }
 
-.crop img {
+.cropIcon img {
  height: auto;
  width: 400px;
 }
 
-.crop2 {
+.cropLogo {
  height: 100px;
  width: 125px;
  overflow: hidden;
 }
 
-.crop2 img {
+.cropLogo img {
  height: auto;
  width: 400px
 }
+
+.cropMain { 
+  height:700px;
+  width: 1000px;
+ }
+
+.cropMain img { 
+  height: auto;
+  width: 400px;
+ }
 
 .containertop {
   float: right;
