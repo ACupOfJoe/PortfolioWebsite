@@ -2,17 +2,19 @@ h1.name {
   float: right;
   order: 1;
   font-size: 100px;
+  display: inline-block;
  }
 
 h3.catchphrase {
   float: right;
   order: 2;
-  font-size: 75px; 
+  font-size: 75px;
+  display: inline-block; 
  }
 
 .logo { 
-  width: ;
-  height: 10%;
+  float: left; 
+  display: inline-block; 
  }
 
 .crop {
@@ -26,10 +28,20 @@ h3.catchphrase {
  width: 400px;
 }
 
+.crop2 {
+ height: 100px;
+ width: 200px;
+ overflow: hidden;
+}
+
+.crop2 img {
+ height: auto;
+ width: 200px
+}
 
 .containertop {
   float: right;
-  width: 80%;
+  width: 70%;
   border-bottom: 5px solid red;
  }
 
