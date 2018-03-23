@@ -44,6 +44,7 @@ h3.catchphrase {
 .cropMain { 
   height:700px;
   width: 1000px;
+  margin: 10px;
  }
 
 .cropMain img { 
@@ -53,7 +54,7 @@ h3.catchphrase {
 
 .containertop {
   float: right;
-  width: 70%;
+  width: 85%;
   border-bottom: 5px solid red;
  }
 
