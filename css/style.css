@@ -42,14 +42,24 @@ h3.catchphrase {
 }
 
 .cropMain { 
-  height:700px;
-  width: 1000px;
+  height:40%;
+  width: 70%;
   margin: 10px;
  }
 
 .cropMain img { 
   height: auto;
-  width: 400px;
+  width: 70%;
+ }
+
+ .cropSide { 
+  height: 25%;
+  width: 100%;
+ }
+
+.cropSide img { 
+  height: auto;
+  width: 100%;
  }
 
 .containertop {
@@ -59,11 +69,12 @@ h3.catchphrase {
  }
 
 .containerMiddle {
-  clear: both;
+  float: right; 
   width: 100%;
  }
 
  .containerMiddleLeft { 
+  width: 10%;
   float: left;
   }
 
@@ -75,6 +86,10 @@ h3.catchphrase {
   float: left;
 }
 
+.floatRight { 
+float: right; 
+}
+
 .textAlignCenter {
   text-align: center;
 }
@@ -84,4 +99,9 @@ h3.catchphrase {
  }
 
 .inlineBlock { 
-display: inline-block; }
+display: inline-block; 
+}
+
+.block { 
+display: block;
+}
