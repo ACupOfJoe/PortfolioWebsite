@@ -82,6 +82,10 @@ h3.catchphrase {
   clear: left;
 }
 
+  .clearBoth { 
+  clear: both; 
+}
+
 .floatLeft { 
   float: left;
 }
@@ -105,3 +109,7 @@ display: inline-block;
 .block { 
 display: block;
 }
+
+.featuredWork { 
+  text-align: left;
+ }
