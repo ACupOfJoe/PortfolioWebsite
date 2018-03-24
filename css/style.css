@@ -1,23 +1,32 @@
-h1.name { 
-  float: right;
-  order: 1;
-  font-size: 80px;
-  margin: 0;
-  padding: 0;
- }
 
-h3.catchphrase {
-  float: right;
-  text-align: right;
-  order: 2;
-  font-size: 50px;
-  margin: 0;
-  padding: 0;
+
+
+.block { 
+display: block;
 }
 
-.logo { 
-  float: left; 
+.catchphrase { 
+clear: right; 
+}
+ .clearLeft { 
+  clear: left;
+}
+
+.containertop {
+  float: right;
+  width: 85%;
+  border-bottom: 5px solid red;
  }
+
+.containerMain {
+  float: right; 
+  width: 70%
+ }
+
+ .containerMiddleLeft { 
+  width: 10%;
+  float: left;
+  }
 
 .cropIcon {
  height: 200px;
@@ -62,32 +71,41 @@ h3.catchphrase {
   width: 100%;
  }
 
-.containertop {
-  float: right;
-  width: 85%;
-  border-bottom: 5px solid red;
- }
-
-.containerMiddle {
-  float: right; 
-  width: 100%;
- }
-
- .containerMiddleLeft { 
-  width: 10%;
-  float: left;
-  }
-
- .clearLeft { 
-  clear: left;
-}
-
-.floatLeft { 
+ .floatLeft { 
   float: left;
 }
 
 .floatRight { 
 float: right; 
+}
+
+h1.name { 
+  float: right;
+  order: 1;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+ }
+
+h3.catchphrase {
+  float: right;
+  text-align: right;
+  order: 2;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.inlineBlock { 
+display: inline-block; 
+}
+
+.logo { 
+  float: left; 
+ }
+
+.name { 
+float: right;
 }
 
 .textAlignCenter {
@@ -98,10 +116,4 @@ float: right;
   vertical-align: top;
  }
 
-.inlineBlock { 
-display: inline-block; 
-}
 
-.block { 
-display: block;
-}
