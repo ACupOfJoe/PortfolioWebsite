@@ -19,9 +19,9 @@ display: block;
   border-bottom: 5px solid red;
  }
 
-.containerMain {
+.containerMiddle {
   float: right; 
-  width: 70%
+  width: 85%
  }
 
  .containerMiddleLeft { 
@@ -37,7 +37,7 @@ display: block;
 
 .cropIcon img {
  height: auto;
- width: 400px;
+ width: 0.5vw;
 }
 
 .cropLogo {
