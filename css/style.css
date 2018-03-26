@@ -1,5 +1,21 @@
 
 
+.nameandcatchphrase { 
+display: block; 
+}
+
+.name { 
+float: right;
+}
+
+.catchphrase { 
+clear: right;
+}
+
+.logo { 
+  cropLogo; 
+
+ }
 
 .block { 
 display: block;
@@ -24,9 +40,10 @@ display: block;
   width: 90%
  }
 
- .containerMiddleLeft { 
-  width: 10%;
+ .containerLeft { 
+  width: 5%;
   float: left;
+  clear: left;
   }
 
 .cropIcon {
@@ -81,7 +98,6 @@ float: right;
 }
 
 h1.name { 
-  float: right;
   order: 1;
   font-size: 4vw;
   margin: 0;
@@ -89,7 +105,6 @@ h1.name {
  }
 
 h3.catchphrase {
-  float: right;
   text-align: right;
   order: 2;
   font-size: 3vw;
