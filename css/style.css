@@ -1,7 +1,21 @@
 
+.waterandboatsimage { 
+float: left;
+}
+
+.boatsinwaterimage { 
+float: left; 
+}
+
+.mountainsimage {
+float: left; 
+}
+
+.palmtreesimage { 
+float: left; 
+}
 
 .nameandcatchphrase { 
-display: block; 
 }
 
 .name { 
@@ -9,12 +23,11 @@ float: right;
 }
 
 .catchphrase { 
-clear: right;
+ clear: right;
 }
 
 .logo { 
-  cropLogo; 
-
+  float: left; 
  }
 
 .block { 
@@ -29,22 +42,26 @@ display: block;
   clear: right;
 }
 
+.containerwholepage { 
+  display: flex;
+ }
+
 .containertop {
-  float: right;
+  clear: left;
+  margin-left: 15%;
   width: 85%;
   border-bottom: 5px solid red;
  }
 
-.containerMiddle {
-  float: right; 
-  width: 90%
- }
-
- .containerLeft { 
-  width: 5%;
+ .containerleft { 
+  width: 15%;
   float: left;
   clear: left;
   }
+
+.containermiddle { 
+
+ }
 
 .cropIcon {
  height: 200px;
@@ -68,26 +85,31 @@ display: block;
  width: 400px
 }
 
-.cropMain { 
-  height: 50%;
+.cropmain { 
+  height: 100%;
   width: 100%;
-  margin: 10px;
  }
 
-.cropMain img { 
-  height: auto;
-  width: 100%
+.cropmain img {
+  background-size: 100% 100%
  }
 
- .cropSide { 
+ .cropside { 
   height: 25%;
   width: 100%;
  }
 
-.cropSide img { 
+.cropside img {
   height: auto;
   width: 100%;
+
  }
+
+ .featuredwork { 
+  display: block;
+  clear: both;
+  text-align: left;
+  }
 
  .floatLeft { 
   float: left;
@@ -112,16 +134,21 @@ h3.catchphrase {
   padding: 0;
 }
 
-.htmlAndCropIcon { 
-width: 85%; 
+.htmlandcropicon { 
+width: 85%;
+float: right; 
 }
 
 .inlineBlock { 
 display: inline-block; 
 }
 
+.html { 
+margin: 0 0 0 0; 
+}
+
 .logo { 
-  float: left; 
+  float: left;
  }
 
 .name { 
