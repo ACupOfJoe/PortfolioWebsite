@@ -21,7 +21,7 @@ display: block;
 
 .containerMiddle {
   float: right; 
-  width: 85%
+  width: 90%
  }
 
  .containerMiddleLeft { 
@@ -97,6 +97,10 @@ h3.catchphrase {
   padding: 0;
 }
 
+.htmlAndCropIcon { 
+width: 85%; 
+}
+
 .inlineBlock { 
 display: inline-block; 
 }
@@ -108,6 +112,11 @@ display: inline-block;
 .name { 
 float: right;
 }
+
+.positionLeftRelative { 
+  position: relative;
+  left: 10%;
+ }
 
 .textAlignCenter {
   text-align: center;
