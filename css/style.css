@@ -119,6 +119,7 @@ display: block;
 float: right; 
 }
 
+<<<<<<< HEAD
 h1.name { 
   order: 1;
   font-size: 4vw;
@@ -132,6 +133,17 @@ h3.catchphrase {
   font-size: 3vw;
   margin: 0;
   padding: 0;
+||||||| merged common ancestors
+.floatLeft { 
+  float: left;
+=======
+  .clearBoth { 
+  clear: both; 
+}
+
+.floatLeft { 
+  float: left;
+>>>>>>> master
 }
 
 .htmlandcropicon { 
@@ -169,3 +181,17 @@ float: right;
  }
 
 
+<<<<<<< HEAD
+||||||| merged common ancestors
+.block { 
+display: block;
+}
+=======
+.block { 
+display: block;
+}
+
+.featuredWork { 
+  text-align: left;
+ }
+>>>>>>> master
