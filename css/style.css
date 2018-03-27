@@ -45,8 +45,13 @@ display: block;
 }
 
 .containerwholepage { 
-  display: flex;
+
+   display: flex;
  }
+
+ .containermiddle { 
+  margin: 0 5% 0 5%;
+  }
 
 .containertop {
   clear: left;
@@ -56,7 +61,9 @@ display: block;
  }
 
  .containerleft {  
-  width: 15%;
+  width: 7.5%;
+  margin-left: 5%;
+  margin-right: 2.5%;
   float: left;
   clear: left;
   }
@@ -71,6 +78,7 @@ display: block;
  height: 200px;
  width: 300px;
  overflow: hidden;
+
 }
 
 .cropicon img {
@@ -99,10 +107,16 @@ display: block;
   width: 100%;
  }
 
- .cropside { 
-  height: 100%;
-  width: 100%;
+.nohorizontalmargins { 
+ margin-left: 0;
+ margin-right: 0;
  }
+ 
+ .cropside { 
+  height: 90%;
+  width: 90%;
+ }
+
 
 .cropside img {
   height: auto;
@@ -195,10 +209,60 @@ display: block;
 
 @media screen and (min-width: 360px) 
 {
-  .
-  .containerleft { 
-  width: 100%; 
+
+  body, html { 
+    width: 100%;
+    margin: 10 0 10 0;
+   }
+  .containerwholepage { 
+    width: 100%;
+   }
+
+   .containermiddle { 
+    width: 100%;
+    margin: 0 0 0 0;
+    }
+
+  /* https://stackoverflow.com/questions/4767971/how-do-i-center-float-elements */
+
+  .containertop {
+    margin: 0 0 0 0;
+    width: 100%;
   }
+  .containerleft { 
+  width: %;
+  margin: 0 0 0 0;
+  float: left; 
+  position: relative;
+
+  }
+  .cropside { 
+  height: 25%;
+  width: 25%;
+  }
+.cropside img {
+  height: auto;
+  width: 100%;
+  float: left;
+  position: relative; 
+  left: 50%;
+ }
+ .sidetext { 
+  font-size: 2vw;
+  text-align: center;
+  }
+
+ .textAlignCenter { 
+  float: left;
+  position: relative;
+  left: 25%;
+  }
+
+
+
+  .containerbottom { 
+    width: 100%;
+   }
 
  }
 
