@@ -61,11 +61,11 @@ display: block;
   clear: left;
   }
 
-  .containerbottom { 
+.containerbottom { 
     margin-right: 5%;
-    width: 79%;
+    width: 80%;
     float: right;
-   }
+}
 
 .cropicon {
  height: 200px;
@@ -90,8 +90,8 @@ display: block;
 }
 
 .cropmain { 
-  height: 85%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
  }
 
 .cropmain img {
