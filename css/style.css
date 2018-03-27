@@ -1,4 +1,6 @@
-
+.html { 
+  box-sizing: border-box;
+ }
 .waterandboatsimage { 
 float: left;
 }
@@ -74,15 +76,15 @@ display: block;
  width: 0.5vw;
 }
 
-.cropLogo {
- height: 100px;
- width: 125px;
- overflow: hidden;
+.croplogo {
+ height: 30%;
+ width: 30%;
 }
 
-.cropLogo img {
+.croplogo img {
  height: auto;
- width: 400px
+ width: 10%;
+ margin: 0 0 0 0;
 }
 
 .cropmain { 
