@@ -107,9 +107,10 @@ display: block;
   width: 100%;
  }
 
-.nohorizontalmargins { 
- margin-left: 0;
- margin-right: 0;
+.horizontalmargins {
+display: block; 
+ margin-left: auto;
+ margin-right: auto;
  }
  
  .cropside { 
@@ -210,9 +211,9 @@ display: block;
 @media screen and (min-width: 360px) 
 {
 
-  body, html { 
-    width: 100%;
-    margin: 10 0 10 0;
+  body { 
+    width: 90%;
+    margin: 5% 5% 5% 5%;
    }
   .containerwholepage { 
     width: 100%;
@@ -221,42 +222,37 @@ display: block;
    .containermiddle { 
     width: 100%;
     margin: 0 0 0 0;
-    }
-
-  /* https://stackoverflow.com/questions/4767971/how-do-i-center-float-elements */
+  }
 
   .containertop {
     margin: 0 0 0 0;
     width: 100%;
   }
   .containerleft { 
-  width: %;
+  width: 100%;
   margin: 0 0 0 0;
-  float: left; 
   position: relative;
 
   }
+  /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
   .cropside { 
-  height: 25%;
-  width: 25%;
+  height: 100%;
+  width: 100%;
   }
 .cropside img {
   height: auto;
   width: 100%;
-  float: left;
-  position: relative; 
-  left: 50%;
- }
- .sidetext { 
-  font-size: 2vw;
-  text-align: center;
-  }
 
- .textAlignCenter { 
-  float: left;
-  position: relative;
-  left: 25%;
-  }
+ }
+ 
+ .horizontalmargins {
+display: block; 
+ margin-left: 35%;
+ margin-right: 35%;
+ width: 30%;
+ height: auto;
+ }
+
 
 
 
