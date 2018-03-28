@@ -1,3 +1,5 @@
+
+/* Containers are named after looking at website from desktop view */
 .html { 
   box-sizing: border-box;
  }
@@ -124,7 +126,7 @@ display: block;
   width: 100%;
  }
  .sidetext { 
-  font-size: 2vw;
+  font-size: 1.5vw;
   }
 
  .featuredwork { 
@@ -133,12 +135,10 @@ display: block;
   text-align: left;
   }
 
- .floatLeft { 
-  float: left;
-}
+
 
 .floatRight { 
-float: right; 
+  float: right; 
 }
 
 h1.name { 
@@ -155,9 +155,7 @@ h3.catchphrase {
   margin: 0;
   padding: 0;
 }
-.floatLeft { 
-  float: left;
-}
+
 
 .clearBoth { 
   clear: both; 
@@ -167,9 +165,6 @@ h3.catchphrase {
   float: left;
 }
 
-.htmlandcropicon { 
- 
-}
 
 .inlineBlock { 
 display: inline-block; 
@@ -184,7 +179,7 @@ margin: 0 0 0 0;
  }
 
 .name { 
-float: right;
+  float: right;
 }
 
 .positionLeftRelative { 
@@ -201,12 +196,12 @@ float: right;
  }
 
 .block { 
-display: block;
+  display: block;
 }
 
 
 
-@media screen and (min-width: 360px) 
+@media screen and (min-width: 360px) and (max-width: 1399px)
 {
 
 body { 
@@ -261,12 +256,23 @@ body {
   height: auto;
   width: 10%;
 }
- }
  .featuredwork { 
   text-align: center;
  }
+}
 
- @media screen and (min-width: 1000px) 
-{
-
+/* Would customize for iPad but don't change anything because original 
+works fine */
+ @media screen and (min-width: 768px) {
  }
+
+ @media screen and (min-width: 1400px){ 
+    .containerwholepage {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto; 
+
+     } 
+  }
