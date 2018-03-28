@@ -110,9 +110,9 @@ display: block;
  }
 
 .horizontalmargins {
-display: block; 
- margin-left: auto;
- margin-right: auto;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
  }
  
  .cropside { 
@@ -141,8 +141,10 @@ display: block;
   float: right; 
 }
 
+
+
 h1.name { 
-  font-family: Helvetica Neue;  
+  font-family: 'Cinzel', serif;
   order: 1;
   font-size: 3vw;
   margin: 0;
@@ -150,10 +152,10 @@ h1.name {
  }
 
 h3.catchphrase {
-  font-family: Helvetica Neue; 
+  font-family: 'Cinzel', serif;
   text-align: right;
   order: 2;
-  font-size: 2.5vw;
+  font-size: 3vw;
   margin: 0;
   padding: 0;
 }
@@ -267,8 +269,8 @@ body {
  }
 
 .croplogo { 
-  height: 22.5%;
-  width: 22.5%;
+  height: 20%;
+  width: 20%;
 }
 .croplogo img {
   height: auto;
