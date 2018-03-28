@@ -216,11 +216,17 @@ margin: 0 0 0 0;
 }
 
 .bordercolor {
+<<<<<<< HEAD
   color: #0b5b9f;
 }
 
 .sidetextcolor { 
   color: #052848;
+||||||| merged common ancestors
+  color:#0b5b9f;
+=======
+  color:#409ff2;
+>>>>>>> tmp3
 }
 
 
