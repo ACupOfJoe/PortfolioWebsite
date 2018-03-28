@@ -204,41 +204,39 @@ float: right;
 display: block;
 }
 
-.featuredWork { 
-  text-align: left;
- }
+
 
 @media screen and (min-width: 360px) 
 {
 
-  body { 
-    width: 90%;
-    margin: 5% 5% 5% 5%;
-   }
-  .containerwholepage { 
-    width: 100%;
-   }
+body { 
+  width: 90%;
+  margin: 5% 5% 5% 5%;
+}
+.containerwholepage { 
+  width: 100%;
+}
 
-   .containermiddle { 
-    width: 100%;
-    margin: 0 0 0 0;
-  }
+.containermiddle { 
+  width: 100%;
+  margin: 0 0 0 0;
+}
 
-  .containertop {
+.containertop {
     margin: 0 0 0 0;
     width: 100%;
   }
-  .containerleft { 
+.containerleft { 
   width: 100%;
   margin: 0 0 0 0;
   position: relative;
 
   }
   /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
-  .cropside { 
+.cropside { 
   height: 100%;
   width: 100%;
-  }
+}
 .cropside img {
   height: auto;
   width: 100%;
@@ -246,20 +244,26 @@ display: block;
  }
  
  .horizontalmargins {
-display: block; 
- margin-left: 35%;
- margin-right: 35%;
- width: 30%;
- height: auto;
+  display: block; 
+  margin: 10% 30% 10% 30%;
  }
 
+.containerbottom { 
+  margin-right: 0;
+  width: 100%;
+  }
 
-
-
-  .containerbottom { 
-    width: 100%;
-   }
-
+.cropicon {
+  height: 100%;
+  width: 100%;
+}
+.cropicon img {
+  height: auto;
+  width: 10%;
+}
+ }
+ .featuredwork { 
+  text-align: center;
  }
 
  @media screen and (min-width: 1000px) 
