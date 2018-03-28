@@ -71,7 +71,7 @@ display: block;
   }
 
 .containerbottom { 
-    margin-right: 5%;
+    margin: 3% 5% 0 0; 
     width: 80%;
     float: right;
 }
@@ -216,17 +216,11 @@ margin: 0 0 0 0;
 }
 
 .bordercolor {
-<<<<<<< HEAD
-  color: #0b5b9f;
+  color: #409ff2;
 }
 
 .sidetextcolor { 
   color: #052848;
-||||||| merged common ancestors
-  color:#0b5b9f;
-=======
-  color:#409ff2;
->>>>>>> tmp3
 }
 
 
