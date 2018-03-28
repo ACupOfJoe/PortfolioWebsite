@@ -127,6 +127,7 @@ display: block;
  }
  .sidetext { 
   font-size: 1.5vw;
+  font-family: 'Lato', sans-serif;;
   }
 
  .featuredwork { 
@@ -297,11 +298,11 @@ body {
 }
  .featuredwork { 
   text-align: center;
- }
+}
 
- .sidetext { 
+.sidetext { 
   font-size: 3vw;
-  }
+  ==
 }
 
 /* Would customize for iPad but don't change anything because original 
