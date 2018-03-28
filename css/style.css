@@ -89,8 +89,8 @@ display: block;
 }
 
 .croplogo {
- height: 30%;
- width: 30%;
+ height: 20%;
+ width: 20%;
 }
 
 .croplogo img {
@@ -142,6 +142,7 @@ display: block;
 }
 
 h1.name { 
+  font-family: Helvetica Neue;  
   order: 1;
   font-size: 3vw;
   margin: 0;
@@ -149,6 +150,7 @@ h1.name {
  }
 
 h3.catchphrase {
+  font-family: Helvetica Neue; 
   text-align: right;
   order: 2;
   font-size: 2.5vw;
