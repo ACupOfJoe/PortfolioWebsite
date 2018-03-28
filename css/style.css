@@ -59,7 +59,7 @@ display: block;
   clear: left;
   margin: 0 5% 0 15%;
   width: 80%;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid;
  }
 
  .containerleft {  
@@ -89,8 +89,8 @@ display: block;
 }
 
 .croplogo {
- height: 30%;
- width: 30%;
+ height: 17.2%;
+ width: 17.2%;
 }
 
 .croplogo img {
@@ -199,6 +199,28 @@ margin: 0 0 0 0;
   display: block;
 }
 
+.captionheadingcolor { 
+  color: #052848;
+}
+
+.captionlinkcolor { 
+  color: #052848;
+}
+
+.namecolor { 
+  color: #052848;
+}
+
+.catchphrasecolor { 
+  color: #052848;
+}
+
+.bordercolor {
+  color:#0b5b9f;
+}
+
+
+
 
 
 @media screen and (min-width: 360px) and (max-width: 1399px)
@@ -235,8 +257,16 @@ body {
 .cropside img {
   height: auto;
   width: 100%;
-
  }
+
+.croplogo { 
+  height: 12.5%;
+  width: 12.5%;
+}
+.croplogo img {
+  height: auto;
+  width: 100%;
+ } 
  
  .horizontalmargins {
   display: block; 
@@ -259,6 +289,10 @@ body {
  .featuredwork { 
   text-align: center;
  }
+
+ .sidetext { 
+  font-size: 3vw;
+  }
 }
 
 /* Would customize for iPad but don't change anything because original 
