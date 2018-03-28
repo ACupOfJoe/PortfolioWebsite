@@ -126,23 +126,29 @@ display: block;
   width: 100%;
  }
  .sidetext { 
-  font-size: 1.5vw;
-  font-family: 'Lato', sans-serif;;
+  font-size: 1.0vw;
+  font-family: 'Lato', sans-serif;
   }
 
  .featuredwork { 
+  font-family: 'Cinzel', serif;
   display: block;
   clear: both;
   text-align: left;
   }
 
+.captionheadingfont { 
+  font-family: 'Cinzel', serif;
+  font-size: 1.0vw;
+ }
 
+.captionlinkfont {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8vw; }
 
 .floatRight { 
   float: right; 
 }
-
-
 
 h1.name { 
   font-family: 'Cinzel', serif;
