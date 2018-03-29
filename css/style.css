@@ -74,6 +74,7 @@ display: block;
     margin: 3% 5% 0 0; 
     width: 80%;
     float: right;
+    background-color: #cfe7fc;
 }
 
 .cropicon {
@@ -85,7 +86,7 @@ display: block;
 
 .cropicon img {
  height: auto;
- width: 10%;
+ width: 100%;
 }
 
 .croplogo {
@@ -297,12 +298,14 @@ body {
   }
 
 .cropicon {
-  height: 100%;
-  width: 100%;
+  max-height: auto;
+  max-width: 100%;  
 }
+
 .cropicon img {
-  height: auto;
-  width: 10%;
+  max-height: auto;
+  max-width: 100%;
+  overflow: hidden;
 }
  .featuredwork { 
   text-align: center;
