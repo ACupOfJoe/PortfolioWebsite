@@ -2,28 +2,26 @@
 /* Containers are named after looking at website from desktop view */
 .html { 
   box-sizing: border-box;
- }
+}
+
 .waterandboatsimage { 
-float: left;
+  float: left;
 }
 
 .boatsinwaterimage { 
-float: left; 
+  float: left; 
 }
 
 .mountainsimage {
-float: left; 
+  float: left; 
 }
 
 .palmtreesimage { 
-float: left; 
-}
-
-.nameandcatchphrase { 
+  float: left; 
 }
 
 .name { 
-float: right;
+  float: right;
 }
 
 .catchphrase { 
@@ -35,10 +33,10 @@ float: right;
  }
 
 .block { 
-display: block;
+  display: block;
 }
 
- .clearLeft { 
+.clearLeft { 
   clear: left;
 }
 
@@ -47,42 +45,40 @@ display: block;
 }
 
 .containerwholepage { 
+  display: flex;
+}
 
-   display: flex;
- }
-
- .containermiddle { 
+.containermiddle { 
   margin: 0 5% 0 5%;
-  }
+}
 
 .containertop {
   clear: left;
   margin: 0 5% 0 15%;
   width: 80%;
   border-bottom: 4px solid;
- }
+}
 
- .containerleft {  
+.containerleft {  
   width: 7.5%;
   margin-left: 5%;
   margin-right: 2.5%;
   float: left;
   clear: left;
-  }
+}
 
 .containerbottom { 
-    padding: 3% 5% 0 5%;
-    margin: 0 5% 0 0; 
-    width: 70%;
-    float: right;
-    background-color: #cfe7fc;
+  padding: 3% 5% 0 5%;
+  margin: 0 5% 0 0; 
+  width: 70%;
+  float: right;
+  background-color: #cfe7fc;
 }
 
 .cropicon {
  height: 200px;
  width: 300px;
  overflow: hidden;
-
 }
 
 .cropicon img {
@@ -104,41 +100,42 @@ display: block;
 .cropmain { 
   height: 100%;
   width: 100%;
- }
+}
 
 .cropmain img {
   height: auto;
   width: 100%;
- }
+}
 
 .horizontalmargins {
   display: block; 
   margin-left: auto;
   margin-right: auto;
- }
+}
  
- .cropside { 
+.cropside { 
   height: 90%;
   width: 90%;
- }
+}
 
 
 .cropside img {
   height: auto;
   width: 100%;
- }
- .sidetext { 
+}
+ 
+.sidetext { 
   font-size: 1.0vw;
   font-family: 'Lato', sans-serif;
-  }
+}
 
- .featuredwork { 
+.featuredwork { 
   font-family: 'Cinzel', serif;
   display: block;
   clear: both;
   text-align: left;
   text-decoration: underline;
-  }
+}
 
 .captionheadingfont { 
   font-family: 'Cinzel', serif;
@@ -179,7 +176,6 @@ h3.catchphrase {
   float: left;
 }
 
-
 .inlineBlock { 
 display: inline-block; 
 }
@@ -188,18 +184,10 @@ display: inline-block;
 margin: 0 0 0 0; 
 }
 
-.logo { 
-  float: left;
- }
-
-.name { 
-  float: right;
-}
-
 .positionLeftRelative { 
   position: relative;
   left: 10%;
- }
+}
 
 .textAlignCenter {
   text-align: center;
@@ -237,23 +225,17 @@ margin: 0 0 0 0;
   color: #052848;
 }
 
-
 .iconcharacteristics {
   display:inline-block;
 }
 
-
-
-
-
-
 @media screen and (min-width: 360px) and (max-width: 767px)
 {
-
   body { 
     width: 90%;
     margin: 5% 5% 5% 5%;
   }
+
   .containerwholepage { 
     width: 100%;
   }
@@ -266,18 +248,20 @@ margin: 0 0 0 0;
   .containertop {
       margin: 0 0 0 0;
       width: 100%;
-    }
+  }
+
   .containerleft { 
     width: 100%;
     margin: 0 0 0 0;
     position: relative;
+  }
 
-    }
     /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
   .cropside { 
     height: 100%;
     width: 100%;
   }
+
   .cropside img {
     height: auto;
     width: 100%;
@@ -287,13 +271,13 @@ margin: 0 0 0 0;
     height: 17.5%;
     width: 17.5%;
   }
+
   .croplogo img {
     height: auto;
     width: 100%;
-
-   } 
+  } 
    
-   .horizontalmargins {
+  .horizontalmargins {
     display: block; 
     margin: 10% 30% 10% 30%;
    }
@@ -302,7 +286,7 @@ margin: 0 0 0 0;
     padding: 5%;
     margin: 0;
     width: 90%;
-    }
+  }
 
   .cropicon {
     height: 40vw;
@@ -316,51 +300,54 @@ margin: 0 0 0 0;
     max-width: 100%;
     overflow: hidden;
   }
-   .featuredwork { 
+
+  .featuredwork { 
     text-align: center;
     text-decoration: underline;
   }
 
   .sidetext { 
-  font-size: 3vw;
-}
+    font-size: 3vw;
+  }
 
   .captionheadingfont { 
-  font-size: 3vw;
- }
+    font-size: 3vw;
+  }
 
-.captionlinkfont { 
-  font-size: 2vw;
-  word-wrap: break-word;
- }
+  .captionlinkfont { 
+    font-size: 2vw;
+    word-wrap: break-word;
+  }
 
   .cropicondiv { 
     float: left;
   }
 }
 
- @media screen and (min-width: 768px) and (max-width: 1399px) {
-body { 
-  width: 90%;
-  margin: 5% 5% 5% 5%;
-}
-.containerwholepage { 
-  width: 100%;
-}
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+  body { 
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+  }
 
-.containermiddle { 
-  width: 100%;
-  margin: 0 0 0 0;
-}
+  .containerwholepage { 
+    width: 100%;
+  }
 
-.containertop {
+  .containermiddle { 
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .containertop {
     margin: 0 0 0 0;
     width: 100%;
   }
-.containerleft { 
-  width: 100%;
-  margin: 0 0 0 0;
-  position: relative;
+
+  .containerleft { 
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
   }
 
   .containerbottom { 
@@ -369,64 +356,65 @@ body {
     width: 90%;
    }
   /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
-.cropside { 
-  height: 100%;
-  width: 100%;
-}
-.cropside img {
-  height: auto;
-  width: 100%;
- }
+  .cropside { 
+    height: 100%;
+    width: 100%;
+  }
 
-.croplogo { 
-  height: 17.5%;
-  width: 17.5%;
-}
-.croplogo img {
-  height: auto;
-  width: 100%;
+  .cropside img {
+    height: auto;
+    width: 100%;
+  }
 
- } 
+  .croplogo { 
+    height: 17.5%;
+    width: 17.5%;
+  }
+
+  .croplogo img {
+    height: auto;
+    width: 100%;
+  } 
  
- .horizontalmargins {
-  display: block; 
-  margin: 10% 30% 10% 30%;
- }
+  .horizontalmargins {
+    display: block; 
+    margin: 10% 30% 10% 30%;
+  }
 
 
-.cropicon {
-  max-height: auto;
-  max-width: 100%;  
-}
+  .cropicon {
+    max-height: auto;
+    max-width: 100%;  
+  }
 
-.cropicon img {
-  max-height: auto;
-  max-width: 100%;
-  overflow: hidden;
-}
- .featuredwork { 
-  text-align: center;
-  text-decoration: underline;
-  font-size: 4vw;
-}
+  .cropicon img {
+    max-height: auto;
+    max-width: 100%;
+    overflow: hidden;
+  }
 
-.sidetext { 
-  font-size: 3vw;
-}
+  .featuredwork { 
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4vw;
+  }
 
-.captionheadingfont { 
-  font-size: 3vw;
- }
+  .sidetext { 
+    font-size: 3vw;
+  }
 
-.captionlinkfont { 
-  font-size: 2vw;
-  word-wrap: break-word;
- }
+  .captionheadingfont { 
+    font-size: 3vw;
+  }
 
-.cropicondiv { 
-  float: left;
-}
+  .captionlinkfont { 
+    font-size: 2vw;
+    word-wrap: break-word;
+  }
 
+  .cropicondiv { 
+    float: left;
+  }
 
  .cropicondiv { 
     height: auto;
@@ -456,11 +444,10 @@ body {
 
  @media screen and (min-width: 1400px){ 
     .containerwholepage {
-    width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto; 
-
-     } 
+      width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      margin-bottom: auto; 
+    } 
   }
