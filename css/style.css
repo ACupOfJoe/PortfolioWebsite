@@ -305,7 +305,7 @@ margin: 0 0 0 0;
     }
 
   .cropicon {
-    height: 150px;
+    height: 40vw;
     width: 100%;
     overflow: hidden;
     background-size: cover; 
@@ -322,16 +322,17 @@ margin: 0 0 0 0;
   }
 
   .sidetext { 
-    font-size: 3vw;
-  }
+  font-size: 3vw;
+}
 
   .captionheadingfont { 
-    font-size: 18px;
-   }
+  font-size: 3vw;
+ }
 
-  .captionlinkfont { 
-    font-size: 10px;
-   }
+.captionlinkfont { 
+  font-size: 2vw;
+  word-wrap: break-word;
+ }
 
   .cropicondiv { 
     float: left;
@@ -440,12 +441,12 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 100%;
   }
 
   .cropicon { 
     width: 100%;
-    height: 200px;
+    height: 40vw;
     overflow: hidden;
     padding: auto;
     background-size: cover;
