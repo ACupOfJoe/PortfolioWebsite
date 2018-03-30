@@ -247,9 +247,96 @@ margin: 0 0 0 0;
 
 
 
-@media screen and (min-width: 360px) and (max-width: 1399px)
+@media screen and (min-width: 360px) and (max-width: 767px)
 {
 
+  body { 
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+  }
+  .containerwholepage { 
+    width: 100%;
+  }
+
+  .containermiddle { 
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .containertop {
+      margin: 0 0 0 0;
+      width: 100%;
+    }
+  .containerleft { 
+    width: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+
+    }
+    /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
+  .cropside { 
+    height: 100%;
+    width: 100%;
+  }
+  .cropside img {
+    height: auto;
+    width: 100%;
+   }
+
+  .croplogo { 
+    height: 17.5%;
+    width: 17.5%;
+  }
+  .croplogo img {
+    height: auto;
+    width: 100%;
+
+   } 
+   
+   .horizontalmargins {
+    display: block; 
+    margin: 10% 30% 10% 30%;
+   }
+
+  .containerbottom { 
+    padding: 5%;
+    margin: 0;
+    width: 90%;
+    }
+
+  .cropicon {
+    max-height: auto;
+    max-width: 100%;  
+  }
+
+  .cropicon img {
+    max-height: auto;
+    max-width: 100%;
+    overflow: hidden;
+  }
+   .featuredwork { 
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .sidetext { 
+    font-size: 3vw;
+  }
+
+  .captionheadingfont { 
+    font-size: 18px;
+   }
+
+  .captionlinkfont { 
+    font-size: 10px;
+   }
+
+  .cropicondiv { 
+    float: left;
+  }
+}
+
+ @media screen and (min-width: 768px) and (max-width: 1399px) {
 body { 
   width: 90%;
   margin: 5% 5% 5% 5%;
@@ -271,8 +358,13 @@ body {
   width: 100%;
   margin: 0 0 0 0;
   position: relative;
-
   }
+
+  .containerbottom { 
+    padding: 5%;
+    margin: 0;
+    width: 90%;
+   }
   /*https://www.w3.org/Style/Examples/007/center.en.html#block*/
 .cropside { 
   height: 100%;
@@ -298,11 +390,6 @@ body {
   margin: 10% 30% 10% 30%;
  }
 
-.containerbottom { 
-  padding: 5%;
-  margin: 0;
-  width: 90%;
-  }
 
 .cropicon {
   max-height: auto;
@@ -335,23 +422,16 @@ body {
   float: left;
 }
 
-/* Would customize for iPad but don't change anything because original 
-works fine */
- @media screen and (min-width: 768px) and (max-width: 1399px) {
 
-  .containerbottom { 
-    padding: 5% 5% 5% 5%;
-    width: 90%;
-   }
-
-   .cropicondiv { 
+ .cropicondiv { 
     height: auto;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     float: none;
-    }
-   .iconcharacteristics {
+  }
+
+ .iconcharacteristics {
     float: none;
     display: block;
     margin-left: auto;
@@ -360,6 +440,7 @@ works fine */
   }
 
   .cropicon { 
+    margin: auto;
    }
  }
 
