@@ -404,6 +404,7 @@ body {
  .featuredwork { 
   text-align: center;
   text-decoration: underline;
+  font-size: 4vw;
 }
 
 .sidetext { 
@@ -411,11 +412,12 @@ body {
 }
 
 .captionheadingfont { 
-  font-size: 18px;
+  font-size: 3vw;
  }
 
 .captionlinkfont { 
-  font-size: 10px;
+  font-size: 2vw;
+  word-wrap: break-word;
  }
 
 .cropicondiv { 
@@ -440,7 +442,12 @@ body {
   }
 
   .cropicon { 
-    margin: auto;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    padding: auto;
+    background-size: cover;
+
    }
  }
 
